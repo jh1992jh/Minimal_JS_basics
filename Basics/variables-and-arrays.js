@@ -10,6 +10,7 @@ instrument = "Bass";
 
 // Arrays
 const instruments = ["Guitar", "Bass", "Drums"];
+console.log(instruments);
 // Arrays are indexed, the first elements index is 0, the index of drums would be 2
 // Indexes can be accessed with the [number] notation e.g. instruments[0] would be "guitar"
 // console.log(instruments[0]);
@@ -47,8 +48,8 @@ const newArray = [];
 // There are immutable and mutable array methods, immutable simply means that the method doesn't modify the original array instead created a new copy of it, mutable modifies the original array
 
 // push is a mutable array method, it adds element/elements to the end of the array
-newArray.push("Bananas");
-// console.log("newArray after push: ", newArray);
+// newArray.push("Bananas");
+console.log("newArray after push: ", newArray);
 
 // concat is a immutable array method so it doesn't modify the original array instead creates a new copy of it.
 newArray.concat("Bananas again");
@@ -107,57 +108,3 @@ if (!frontMan.intruments[1] === "Bass") {
   // If none of the conditions are true do this
   //   console.log("The frontman doesn't play any instruments");
 }
-
-// The FizzBuzz algorithm
-// Iterate from 0 to 100
-// If the iterator is dividable by 3 output Fizz
-// If the iterator is dividable by 5 output Buzz
-// If the iterator is divibale by 3 & 5 output FizzBuzz
-// Else output the iterator
-
-// Hint: the modulo operator
-
-const fizzBuzz = () => {
-  // Fill in the function
-};
-
-// console.log(fizzBuzz());
-
-// Only output letters
-const numbersAndLetters = [1, "a", 2, "b", 3, "c", 4, "d"];
-
-const onlyOutputLetters = () => {
-  // Fill in the function
-};
-
-// console.log(onlyOutputLetters());
-
-// Bonus: If you did this using a for loop, Google JS forEach and refactor your solution to use the forEach loop instead of the for loop
-
-// Output the instrument of each object
-const musicians = [
-  {
-    name: "Kirk Hammet",
-    instrument: "Guitar",
-  },
-  {
-    name: "Gene Simmons",
-    instrument: "Bass",
-  },
-  {
-    name: "Lars Ulrich",
-    instrument: "Drums",
-  },
-  {
-    name: "Robert Plant",
-    instrument: "Vocals",
-  },
-];
-
-const outputInstruments = () => {
-  // Fill in the function
-};
-
-// console.log(outputInstruments());
-
-// Bonus: If you did this using a for loop, Google JS forEach and refactor your solution to use the forEach loop instead of the for loop
